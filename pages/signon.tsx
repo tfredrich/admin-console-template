@@ -47,7 +47,7 @@ import {
                   align={'start'}
                   justify={'space-between'}>
                   <Checkbox>Remember me</Checkbox>
-                  <Link color={'blue.400'}>Forgot password?</Link>
+                  <Link href='/forgot_password' color={'blue.400'}>Forgot password?</Link>
                 </Stack>
                 <Button
                   bg={'blue.400'}
@@ -57,6 +57,11 @@ import {
                   }}>
                   Sign in
                 </Button>
+              </Stack>
+              <Stack>
+                <Text align={'center'}>
+                  Need an account? <Link href='/signup' color={'blue.400'}>Sign Up!</Link>
+                </Text>
               </Stack>
             </Stack>
           </Box>

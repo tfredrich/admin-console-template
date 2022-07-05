@@ -86,9 +86,9 @@ import {
                   Sign up
                 </Button>
               </Stack>
-              <Stack pt={6}>
+              <Stack>
                 <Text align={'center'}>
-                  Already a user? <Link color={'blue.400'}>Login</Link>
+                  Already a user? <Link href='/signon' color={'blue.400'}>Login</Link>
                 </Text>
               </Stack>
             </Stack>
